@@ -1,0 +1,187 @@
+/* Pop-Up de Pacotes */
+.popup {
+    padding-left: 320px;  
+}
+.pacote, .pacoteG {
+    background-color: azure;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block; 
+    width: 345px;
+    /* border: solid 2px rgb(20, 20, 20); */
+    border-radius: 35px; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.486);
+}
+#titPlanos {
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: justify;
+    border-bottom: solid black;
+}
+#desconto {
+    display: inline-block;
+    background-color: rgb(126, 27, 192);
+    color: rgb(221, 221, 221);
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;  
+}
+#titPacotes {
+    font-size: 40px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+.txtpac {
+    text-align: center;
+}
+#valor {
+    font-size: 35px;
+    color: rgb(78, 0, 150);
+    display: inline;
+    font-weight: normal;
+}
+#econom {
+    line-height: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkblue;
+}
+#benefic {
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+    font-weight: normal;
+}
+#benefic:hover {
+    color: rgb(30, 160, 95);
+    font-weight: bold;
+}
+#btnpagar {
+    background-color:azure;
+    font-size: 1.6em;
+    color: rgb(64, 123, 233);
+    border: solid 5px rgb(64, 123, 233);
+    border-radius: 15px;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+#btnpagar:hover {
+    color: white;
+    background-color: rgb(64, 123, 233);
+}
+/* Pacote Gratuito */
+.pacoteG {
+    width: 1175px;
+    height: 190px;
+}
+.txtGratis {    
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 32%;
+    min-width: 250px;
+}
+#itemG {
+    background-image: url(imagens/correto.png);
+    background-position: 10px;
+    background-size: 15px;
+    background-position-x: 21%;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width : 600px){
+    /* Pop-Up de Pacotes */
+.popup {
+    padding-left: 320px;  
+}
+.pacote, .pacoteG {
+    background-color: azure;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block; 
+    width: 345px;
+    /* border: solid 2px rgb(20, 20, 20); */
+    border-radius: 35px; 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.486);
+}
+#titPlanos {
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: justify;
+    border-bottom: solid black;
+}
+#desconto {
+    display: inline-block;
+    background-color: rgb(126, 27, 192);
+    color: rgb(221, 221, 221);
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;  
+}
+#titPacotes {
+    font-size: 40px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+.txtpac {
+    text-align: center;
+}
+#valor {
+    font-size: 35px;
+    color: rgb(78, 0, 150);
+    display: inline;
+    font-weight: normal;
+}
+#econom {
+    line-height: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkblue;
+}
+#benefic {
+    font-size: 17px;
+    color: rgb(10, 10, 10);
+    font-weight: normal;
+}
+#benefic:hover {
+    color: rgb(30, 160, 95);
+    font-weight: bold;
+}
+#btnpagar {
+    background-color:azure;
+    font-size: 1.6em;
+    color: rgb(64, 123, 233);
+    border: solid 5px rgb(64, 123, 233);
+    border-radius: 15px;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+#btnpagar:hover {
+    color: white;
+    background-color: rgb(64, 123, 233);
+}
+/* Pacote Gratuito */
+.pacoteG {
+    width: 1175px;
+    height: 190px;
+}
+.txtGratis {    
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 32%;
+    min-width: 250px;
+}
+#itemG {
+    background-image: url(imagens/correto.png);
+    background-position: 10px;
+    background-size: 15px;
+    background-position-x: 21%;
+    background-repeat: no-repeat;
+}
+}
