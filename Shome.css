@@ -1,0 +1,189 @@
+.intro {
+    padding: 100px;
+    background-image: url(imagens/aviaobg.jpg);
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+#titpopuup {
+    font-size: 31px;
+    color: midnightblue;
+}
+.popupSt {
+    background-color: snow;
+    border-radius: 20px;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438), 0 6px 20px rgba(0, 0, 0, 0.438);
+}
+.popupP {
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.label {
+    font-size: 18px;
+    font-weight: 400;
+    color: midnightblue;
+}
+#local,#data,#cidade {
+    padding: 7px;
+    font-family: "Montserrat";
+    border-radius: 7px;
+}
+#local {
+    margin-left: 44.5px;
+}
+#cidade {
+    margin-left: 10px;
+}
+#data {
+    margin-left: 99px;
+}
+#btnbuscar {
+    background-color: darkslateblue;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    font-family: "Montserrat";
+    padding: 10px 30px;
+    cursor:pointer;
+    border: 0px;
+    border-radius: 8px;
+}
+#btnbuscar:hover {
+    background-color: rgba(71, 61, 139, 0.575);
+    color: rgba(255, 255, 255, 0.575);
+    cursor:pointer;
+}
+/* Promos */
+
+.anuncios {
+    border-top: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promos{
+    background-color: azure;
+    padding: 20px;
+    margin-left:155px;
+    display: inline-block;
+    width: 370px;
+    border-radius: 35px; 
+    box-shadow: 4px 4px 4px rgba(95, 87, 13, 0.486);
+}
+.turismoI,.turismoII,.turismoIII {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left:155px;
+    display: inline-block;
+    width: 370px;
+    border-radius: 35px; 
+    box-shadow: 4px 4px 4px rgba(95, 87, 13, 0.486);
+}
+#titinfos, #titTurismo {
+    text-align: center;
+    font-size: 40px;
+    border-top: 2px solid rgba(128, 128, 128, 0.384);
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+@media all and (max-width : 600px){
+    .intro {
+        padding: 100px;
+        background-image: url(imagens/aviaobg.jpg);
+        height:500px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+    #titpopuup {
+        font-size: 31px;
+        color: midnightblue;
+    }
+    .popupSt {
+        background-color: snow;
+        border-radius: 20px;
+        width: 800px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438), 0 6px 20px rgba(0, 0, 0, 0.438);
+    }
+    .popupP {
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    .label {
+        font-size: 18px;
+        font-weight: 400;
+        color: midnightblue;
+    }
+    #local,#data,#cidade {
+        padding: 7px;
+        font-family: "Montserrat";
+        border-radius: 7px;
+    }
+    #local {
+        margin-left: 44.5px;
+    }
+    #cidade {
+        margin-left: 10px;
+    }
+    #data {
+        margin-left: 99px;
+    }
+    #btnbuscar {
+        background-color: darkslateblue;
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        font-family: "Montserrat";
+        padding: 10px 30px;
+        cursor:pointer;
+        border: 0px;
+        border-radius: 8px;
+    }
+    #btnbuscar:hover {
+        background-color: rgba(71, 61, 139, 0.575);
+        color: rgba(255, 255, 255, 0.575);
+        cursor:pointer;
+    }
+    /* Promos */
+    
+    .anuncios {
+        border-top: 5px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .promos{
+        background-color: azure;
+        padding: 20px;
+        margin-left:155px;
+        display: inline-block;
+        width: 370px;
+        border-radius: 35px; 
+        box-shadow: 4px 4px 4px rgba(95, 87, 13, 0.486);
+    }
+    .turismoI,.turismoII,.turismoIII {
+        background-color: aliceblue;
+        padding: 20px;
+        margin-left:155px;
+        display: inline-block;
+        width: 370px;
+        border-radius: 35px; 
+        box-shadow: 4px 4px 4px rgba(95, 87, 13, 0.486);
+    }
+    #titinfos, #titTurismo {
+        text-align: center;
+        font-size: 40px;
+        border-top: 2px solid rgba(128, 128, 128, 0.384);
+        margin-top: 2px;
+        border-radius: 2px;
+    }
+}

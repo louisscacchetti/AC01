@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Sconta.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icones/airplane.ico" type="imagensz/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Cadastre-se | Planeta Turismo</title>
+</head>
+<body>
+    <header class="main-header">
+        <section class="fixa">
+            <a href="home.html"><h1 id="titPrincipal"> Planeta Turismo </h1></a>
+            <a href="home.html">><img class="logo" src="imagens/airplane.png"></a>
+
+    <nav class="naveg"> 
+        <ul class="nav-lista">
+            <li class="nav-itens">
+                <a href="#" class="nav-link">Viagens</a>
+            </li>
+
+            <li class="nav-itens">
+                <a href="pacotes.html" class="nav-link">Pacotes</a>
+            </li>
+            <section class="conta">
+            <li class="nav-itens">
+                <a href="conta.html" class="nav-link">Login</a>
+            </li>
+            </section>
+        </ul>
+    </nav>
+</header>
+    <br><br><br><br>
+    <h1 id="titCadastro">Cadastra-se no Planeta Turismo</h1>
+    <fieldset class="login">
+        <h3 id="campos"> Campos com (*) são obrigatórios! </h3>
+        <br>
+        <section class="cadastro">
+        <input type="text" name="Nome" id="nome" size="50px" required placeholder="*Nome:" />
+        <br> <br> <br> <br>   
+
+        <input type="date" name="dataNascimento" id="dataNascimento" required placeholder=" *Nascimento" />		
+        <input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoMasculino"> Masculino</label> 	
+        <input type="radio" name="sexo" value="M" id="sexoMasculino" /><label for="sexoFeminino"> Feminino</label>
+        <br> <br> <br>
+
+        <input type="number" name="cpf" id="cpf" required placeholder="*CPF:" />
+        <input type="number" name="cep" id="cep" required placeholder=" *CEP:" /> <br> <br>  
+
+        <input type="tel" name="telefone" id="telefone" size="20px" placeholder="Telefone Fixo:" />
+        <input type="tel" name="celular" id="celular" size="20px" required placeholder="*Celular:" />
+        <br> <br> <br>
+        <input type="text" name="email" id="email" size="20px" required placeholder="*E-mail:">		
+		<input type="password" name="senha" id="senha" size="20px" required placeholder=" *Senha:">
+        <br> <br> <br>
+        <input type="checkbox" name="termos" id="termos"><label for="termos">  Li e aceito os <a href="https://policies.google.com/terms?hl=pt-BR" target="_blank" id="termosL">Termos e Condições</a> de serviço</label>
+        <br> <br> <br>
+        <input id="btncadastro" type="submit" value="Cadastrar" />
+    </section>
+    </fieldset>
+    
+    <br> <br><br>
+<footer class="main-footer" >
+    <section class="titP">
+    <h1 id="titFoot">PLANETA TURISMO</h1>
+    <img id="imgFoot" src="imagens/airplane.png" width="150px">
+    </section>
+
+    <section  class="foot-section" >
+        <h1>Contato</h1>
+        <p>(11) 1234-5678</p>
+        <p>planeturismo@gmail.com</p>
+    </section>
+    <section  class="foot-section">
+        <h1>Endereço</h1>
+        <p>Avenida Santo Antônio, 554</p>
+        <p>São Paulo, SP</p>
+    </section>
+    <section  class="foot-section">
+        <h1 id="rede">Redes Sociais</h1>
+        <a id="linkredes" href="#">Instagram</a><br>
+        <a id="linkredes" href="#">Facebook</a><br>
+        <a id="linkredes" href="#">Tik Tok</a>
+    </section>
+    <br> <br>
+    <p id = "copyright">All Rights Reserved &copy; Luís Scacchetti e Guilherme Soares</p>
+</footer>
+</body>
+</html>
